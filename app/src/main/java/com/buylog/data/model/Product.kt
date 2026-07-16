@@ -11,5 +11,7 @@ data class Product(
     val imageUrl: String,     // 图片URL
     val productUrl: String,   // 商品链接
     val platform: String,     // 平台（淘宝/京东）
+    val price: String = "",   // 价格
+    val images: String = "",  // 轮播图，逗号分隔
     val addedTime: Long = System.currentTimeMillis()  // 添加时间
 )
